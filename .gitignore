@@ -1,0 +1,72 @@
+# Python 字节码缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 发布和打包
+*.egg-info/
+*.dist-info/
+dist/
+build/
+*.egg
+
+# Nuitka构建产物
+*.build/
+*.dist/
+*.onefile-build/
+__main__.build/
+__main__.dist/
+nuitka-crash-report.xml
+
+# PyInstaller
+*.manifest
+*.spec
+
+# 单元测试和覆盖率
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 环境变量和配置
+.env
+.venv
+env/
+venv/
+
+# IDE 和编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 项目特定文件
+download_records.json
+logs/
+*.log
+data/
+installer_output/
+
+# 构建和打包脚本（排除）
+build_nuitka.py
+build_installer.py
+build_all.py
+installer.iss
+pyproject.toml
+
+# 用户数据目录（包含语言文件和设置）
+# 注意：语言文件会自动创建，不需要版本控制
+
+# 临时文件
+*.tmp
+*.temp
+*.part

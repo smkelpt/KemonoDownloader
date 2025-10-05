@@ -1,0 +1,107 @@
+{
+  "app": {
+    "title": "K2",
+    "startup_restriction": "Startup Restriction",
+    "execution_error": "This application can only be run through the packaged executable file.",
+    "build_instructions": "Please use briefcase to build the application and run the generated executable file.\n\nBuild command: briefcase build\nRun command: briefcase run"
+  },
+  "ui": {
+    "url_label": "URL:",
+    "detect_button": "Detect",
+    "cancel_button": "Cancel",
+    "download_button": "Download",
+    "pause_button": "Pause",
+    "continue_button": "Continue",
+    "terminate_button": "Terminate",
+    "folder_browse": "/",
+    "settings_title": "Download Settings",
+    "naming_options_title": "Naming Options",
+    "posts_header": "Posts",
+    "post_time_header": "Title",
+    "post_files_header": "Files",
+    "language_label": "Language:",
+    "prev_page": "Prev",
+    "next_page": "Next",
+    "total_posts": "{count} posts"
+  },
+  "tabs": {
+    "creator_folder": "Creator Folder",
+    "post_folder": "Post Folder",
+    "file": "File"
+  },
+  "filters": {
+    "tag_filter_title": "Tag Filter",
+    "file_filter_title": "File Filter",
+    "include_selected_tags": "Include selected tags:",
+    "search_placeholder": "Enter keywords to filter tags...",
+    "current_rule_disabled": "Current rule: Tag filtering disabled",
+    "current_rule_no_tags": "Current rule: No tags selected",
+    "current_rule_include": "Current rule: Include [{tags}]",
+    "post_range_title": "Post Range (Optional)",
+    "start_post_id": "Start Post ID",
+    "end_post_id": "End Post ID",
+    "post_range_note": "Leave start blank for newest; leave end blank for all. Only affects download, not detection"
+  },
+  "settings": {
+    "download_path_label": "Path:",
+    "download_path_note": ".../K2",
+    "download_threads_label": "Download threads:",
+    "settings_saved": "Settings saved automatically."
+  },
+  "variables": {
+    "creator_name": "Creator Name",
+    "creator_id": "Creator ID",
+    "service": "Platform",
+    "post_title": "Post Title",
+    "post_id": "Post ID",
+    "file_name_original": "Original Name",
+    "file_ext": "Extension"
+  },
+  "messages": {
+    "url_empty_error": "Error: URL cannot be empty.",
+    "download_path_error": "Error: Download directory not set",
+    "detect_link_first": "Error: Please detect the link first",
+    "loading": "Loading...",
+    "detection_complete": "Detection complete",
+    "no_posts_found": "Detection complete, no posts with files found",
+    "no_matching_files": "No matching files found",
+    "posts_found": "Found {count} posts",
+    "download_complete": "Download complete, processed {completed}/{total} files",
+    "download_paused": "Download paused",
+    "download_resumed": "Continue download",
+    "detection_cancelled": "Detection cancelled",
+    "collection_progress": "Collection progress: {count}",
+    "download_progress": "Download progress: {downloaded}/{processed}",
+    "pausing_download": "Pausing download...",
+    "pausing": "Pausing...",
+    "download_error": "Download error: {message}",
+    "detection_error": "Detection failed: {message}",
+    "early_termination": "Found all {count} posts with target tags, ending detection early",
+    "too_many_posts_title": "Too Many Posts",
+    "too_many_posts_message": "Detected {total} posts, which may cause the program to crash.\n\nFor stability, only the first {limit} posts will be displayed.\n\nPlease use tag filtering to narrow down your selection."
+  },
+  "progress": {
+    "config_loaded": "Configuration loaded",
+    "detecting": "Detecting",
+    "detecting_posts": "Detected {count} posts",
+    "detecting_posts_with_total": "Detected {loaded}/{total} posts",
+    "detection_completed": "Detection completed",
+    "detected_posts_with_total": "Detected {loaded}/{total} posts",
+    "downloading": "Downloading",
+    "downloaded_files": "Downloaded {count} files",
+    "file_size_mb": "{downloaded}/{total} MB",
+    "retrying_files": "{count} files retrying",
+    "terminated": "Terminated",
+    "paused": "Paused",
+    "completed": "Completed"
+  },
+  "preview": {
+    "preview_label": "Preview: {text}"
+  },
+  "creator_info": {
+    "label": "Creator Info:",
+    "hover_tip": "Hover for details",
+    "posts_count": "Posts: {count}",
+    "last_updated": "Last Updated: {date}"
+  }
+}

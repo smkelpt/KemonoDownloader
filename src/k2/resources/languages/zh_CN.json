@@ -1,0 +1,107 @@
+{
+  "app": {
+    "title": "K2",
+    "startup_restriction": "启动限制",
+    "execution_error": "此应用程序只能通过打包后的可执行文件运行。",
+    "build_instructions": "请使用 briefcase 构建应用程序并运行生成的可执行文件。\n\n构建命令：briefcase build\n运行命令：briefcase run"
+  },
+  "ui": {
+    "url_label": "URL:",
+    "detect_button": "检测",
+    "cancel_button": "取消",
+    "download_button": "下载",
+    "pause_button": "暂停",
+    "continue_button": "继续",
+    "terminate_button": "终止",
+    "folder_browse": "/",
+    "settings_title": "下载设置",
+    "naming_options_title": "命名选项",
+    "posts_header": "帖子",
+    "post_time_header": "标题",
+    "post_files_header": "文件",
+    "language_label": "语言:",
+    "prev_page": "上一页",
+    "next_page": "下一页",
+    "total_posts": "{count} 个帖子"
+  },
+  "tabs": {
+    "creator_folder": "作者文件夹",
+    "post_folder": "帖子文件夹",
+    "file": "文件"
+  },
+  "filters": {
+    "tag_filter_title": "标签过滤",
+    "file_filter_title": "文件过滤",
+    "include_selected_tags": "包含选中标签:",
+    "search_placeholder": "输入关键词筛选标签...",
+    "current_rule_disabled": "当前规则：标签过滤已关闭",
+    "current_rule_no_tags": "当前规则：无标签选中",
+    "current_rule_include": "当前规则：包含 [{tags}]",
+    "post_range_title": "帖子范围 (可选)",
+    "start_post_id": "起始帖子ID",
+    "end_post_id": "结束帖子ID",
+    "post_range_note": "留空起始则从最新开始；留空结束则下载至末尾。仅在下载时生效，不影响检测"
+  },
+  "settings": {
+    "download_path_label": "路径:",
+    "download_path_note": ".../K2",
+    "download_threads_label": "下载线程:",
+    "settings_saved": "设置已自动保存。"
+  },
+  "variables": {
+    "creator_name": "作者名称",
+    "creator_id": "作者ID",
+    "service": "平台",
+    "post_title": "帖子标题",
+    "post_id": "帖子ID",
+    "file_name_original": "原始名称",
+    "file_ext": "扩展名"
+  },
+  "messages": {
+    "url_empty_error": "错误: URL 不能为空。",
+    "download_path_error": "错误: 未设置下载目录",
+    "detect_link_first": "错误: 请先检测链接",
+    "loading": "加载中...",
+    "detection_complete": "检测完成",
+    "no_posts_found": "检测完成，未找到包含文件的帖子",
+    "no_matching_files": "未找到符合条件的文件",
+    "posts_found": "找到 {count} 个帖子",
+    "download_complete": "下载完成，处理 {completed}/{total} 个文件",
+    "download_paused": "下载已暂停",
+    "download_resumed": "继续下载",
+    "detection_cancelled": "检测已取消",
+    "collection_progress": "采集进度：{count}",
+    "download_progress": "下载进度：{downloaded}/{processed}",
+    "pausing_download": "正在暂停下载...",
+    "pausing": "暂停中...",
+    "download_error": "下载错误: {message}",
+    "detection_error": "检测失败: {message}",
+    "early_termination": "已找到目标标签的所有 {count} 个帖子，提前结束检测",
+    "too_many_posts_title": "数据量过大",
+    "too_many_posts_message": "检测到 {total} 个帖子，这可能导致程序崩溃。\n\n为保证稳定性，仅显示前 {limit} 个帖子。\n\n建议使用标签过滤功能来筛选您需要的帖子。"
+  },
+  "progress": {
+    "config_loaded": "配置加载完成",
+    "detecting": "正在检测",
+    "detecting_posts": "已检测 {count} 个帖子",
+    "detecting_posts_with_total": "已检测 {loaded}/{total} 个帖子",
+    "detection_completed": "检测完成",
+    "detected_posts_with_total": "已检测 {loaded}/{total} 个帖子",
+    "downloading": "正在下载",
+    "downloaded_files": "已下载 {count} 个文件",
+    "file_size_mb": "{downloaded}/{total} MB",
+    "retrying_files": "{count} 个文件正在重试",
+    "terminated": "已终止",
+    "paused": "已暂停",
+    "completed": "下载完成"
+  },
+  "preview": {
+    "preview_label": "预览: {text}"
+  },
+  "creator_info": {
+    "label": "作者信息:",
+    "hover_tip": "悬停查看详情",
+    "posts_count": "帖子数: {count}",
+    "last_updated": "最后更新: {date}"
+  }
+}
