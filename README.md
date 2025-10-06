@@ -1,27 +1,41 @@
-# K2 - Kemono Downloader
+# K2 - Kemono & Coomer Downloader
 
 <div align="center">
 
 ![K2 Logo](src/k2/resources/icons/K2.png)
 
-**High-Performance Kemono Content Downloader**
+**High-Performance Content Downloader for Kemono & Coomer**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
 [![PyQt6](https://img.shields.io/badge/GUI-PyQt6-green.svg)](https://www.riverbankcomputing.com/software/pyqt/)
 
-</div>
+---
+
+### 💎 Get Pre-compiled Version
+
+**Ready-to-use binary available here:** [Ko-fi Shop - K2 Downloader](https://ko-fi.com/s/69553f3227)
+
+No Python installation required • Professional installer included • Instant setup
 
 ---
 
+</div>
+
 ## 📖 Introduction
 
-K2 is a powerful and high-performance content downloader for Kemono. Built with a modern PyQt6 graphical interface, it offers multi-threaded downloading, intelligent caching, and flexible filtering capabilities to make content management simple and efficient.
+K2 is a powerful and high-performance content downloader for **Kemono** and **Coomer** platforms. Built with a modern PyQt6 graphical interface, it offers multi-threaded downloading, intelligent caching, and flexible filtering capabilities to make content management simple and efficient.
+
+## 📸 Screenshot
+
+![K2 Interface](K2%202.0.0.png)
+
+*K2's intuitive interface with real-time download progress and filtering options*
 
 ## ✨ Key Features
 
 ### 🚀 Exceptional Performance
-- **Lightning-fast metadata fetching**: Collect metadata for 10,000 posts in under 2 minutes
+- **Lightning-fast metadata fetching**: Collect metadata for 10,000 posts in just 90 seconds
 - **Multi-threaded concurrent downloads**: Maximize bandwidth utilization with parallel downloads
 - **Intelligent creator data caching**: Avoid redundant API requests for faster response times
 
@@ -49,18 +63,22 @@ K2 is a powerful and high-performance content downloader for Kemono. Built with 
 - **Operating System**: Windows 10/11 (64-bit)
 - **Network**: Active internet connection
 - **Storage**: Sufficient disk space for downloaded content
+- **Supported Platforms**: Kemono.su, Coomer.su
 
 ## 📥 Getting the Software
 
 ### Option 1: Pre-compiled Binary (Paid)
 
-Pre-compiled binary installers are available through paid channels. Once obtained, you can install and use the software directly without any setup.
+Pre-compiled binary installers are available at: **[Ko-fi Shop - K2 Downloader](https://ko-fi.com/s/69553f3227)**
+
+Once purchased, you can install and use the software directly without any setup.
 
 **Benefits:**
 - ✅ Ready to use immediately
 - ✅ No Python installation required
 - ✅ No compilation knowledge needed
 - ✅ Professional installer included
+- ✅ Instant download after purchase
 
 ### Option 2: Build from Source (Free)
 
