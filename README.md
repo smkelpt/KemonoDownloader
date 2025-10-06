@@ -26,7 +26,7 @@ No Python installation required • Professional installer included • Instant 
 
 K2 is a powerful and high-performance content downloader for **Kemono** and **Coomer** platforms. Built with a modern PyQt6 graphical interface, it offers multi-threaded downloading, intelligent caching, and flexible filtering capabilities to make content management simple and efficient.
 
-**Supported Platforms**: Kemono.su • Coomer.su
+**Supported Platforms**: Kemono • Coomer
 
 ## 📸 Screenshot
 
