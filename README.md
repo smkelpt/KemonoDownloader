@@ -26,6 +26,8 @@ No Python installation required • Professional installer included • Instant 
 
 K2 is a powerful and high-performance content downloader for **Kemono** and **Coomer** platforms. Built with a modern PyQt6 graphical interface, it offers multi-threaded downloading, intelligent caching, and flexible filtering capabilities to make content management simple and efficient.
 
+**Supported Platforms**: Kemono.su • Coomer.su
+
 ## 📸 Screenshot
 
 ![K2 Interface](screenshots/K2%202.0.0.png)
@@ -57,13 +59,6 @@ K2 is a powerful and high-performance content downloader for **Kemono** and **Co
 ### 💾 Data Caching
 - **Local creator information caching**: Reduce API load and improve performance
 - **Persistent storage**: Fast loading on subsequent runs
-
-## 🔧 System Requirements
-
-- **Operating System**: Windows 10/11 (64-bit)
-- **Network**: Active internet connection
-- **Storage**: Sufficient disk space for downloaded content
-- **Supported Platforms**: Kemono.su, Coomer.su
 
 ## 📥 Getting the Software
 
