@@ -82,15 +82,22 @@ cd KemonoDownloader
 pip install -r requirements.txt
 
 # 3. Build with Nuitka
-python build_nuitka.py
-
-# 4. (Optional) Generate installer
-python build_installer.py
+python -m nuitka --standalone --onefile \
+    --enable-plugin=pyqt6 \
+    --windows-icon-from-ico=src/k2/resources/icons/K2.ico \
+    --include-data-dir=src/k2/resources=k2/resources \
+    --output-dir=dist \
+    --company-name="K2" \
+    --product-name="K2" \
+    --file-version=2.0.0 \
+    --product-version=2.0.0 \
+    --file-description="Kemono Downloader" \
+    src/k2/__main__.py
 ```
 
-After building, the executable will be located in the `dist/__main__.dist/` directory.
+After building, the executable will be located in the `dist/` directory.
 
-**Note**: Building from source requires technical knowledge and may take significant time depending on your system.
+**Note**: Building from source requires technical knowledge and may take significant time (up to 30+ minutes) depending on your system.
 
 ## 🎮 Usage Guide
 
