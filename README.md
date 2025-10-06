@@ -14,7 +14,7 @@
 
 ### 💎 Get Pre-compiled Version
 
-**Ready-to-use binary available here:** [Ko-fi Shop - K2 Downloader](https://ko-fi.com/s/69553f3227)
+**Ready-to-use binary available here:** [K2 2.0.0 Binaries](https://ko-fi.com/s/69553f3227)
 
 No Python installation required • Professional installer included • Instant setup
 
@@ -28,7 +28,7 @@ K2 is a powerful and high-performance content downloader for **Kemono** and **Co
 
 ## 📸 Screenshot
 
-![K2 Interface](K2%202.0.0.png)
+![K2 Interface](screenshots/K2%202.0.0.png)
 
 *K2's intuitive interface with real-time download progress and filtering options*
 
@@ -69,7 +69,7 @@ K2 is a powerful and high-performance content downloader for **Kemono** and **Co
 
 ### Option 1: Pre-compiled Binary (Paid)
 
-Pre-compiled binary installers are available at: **[Ko-fi Shop - K2 Downloader](https://ko-fi.com/s/69553f3227)**
+Pre-compiled binary installers are available at: **[K2 2.0.0 Binaries](https://ko-fi.com/s/69553f3227)**
 
 Once purchased, you can install and use the software directly without any setup.
 
